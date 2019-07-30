@@ -79,11 +79,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/ajay-patel/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/ajay-patel/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/ajay-patel/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/ajay-patel/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -399,11 +399,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/clarisa-sanchez/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/clarisa-sanchez/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/clarisa-sanchez/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/clarisa-sanchez/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -503,11 +503,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/elke-loskamp-huntink/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/elke-loskamp-huntink/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/elke-loskamp-huntink/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/elke-loskamp-huntink/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -559,11 +559,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/freerk-venhuizen/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/freerk-venhuizen/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/freerk-venhuizen/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/freerk-venhuizen/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -623,11 +623,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/germonda-mooij/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/germonda-mooij/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/germonda-mooij/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/germonda-mooij/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -763,11 +763,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/hans-pinckaers/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/hans-pinckaers/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/hans-pinckaers/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/hans-pinckaers/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -931,15 +931,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/jasper-linmans/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/publications/jasper-linmans/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/jeffrey-hoven/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/jasper-linmans/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -947,11 +943,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/jeroen-van-der-laak/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/jeffrey-hoven/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/jeroen-van-der-laak/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/jeroen-van-der-laak/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -963,19 +963,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/joep-kamps/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/members/joep-kamps/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/john-melle-bokhorst/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/joep-kamps/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/john-melle-bokhorst/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/john-melle-bokhorst/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1007,11 +1007,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/koen-dercksen/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/koen-dercksen/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/koen-dercksen/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/koen-dercksen/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1079,11 +1079,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/leander-van-eekelen/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/leander-van-eekelen/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/leander-van-eekelen/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/leander-van-eekelen/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1375,15 +1375,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/marjolijn-den-boer/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/publications/marjolijn-den-boer/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/mark-van-grinsven/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/marjolijn-den-boer/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1391,11 +1387,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/mart-van-rijthoven/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/mark-van-grinsven/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/mart-van-rijthoven/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/mart-van-rijthoven/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1407,11 +1407,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/maud-wekking/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/maud-wekking/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/maud-wekking/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/maud-wekking/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1555,19 +1555,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/midas-meijs/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/members/midas-meijs/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/miriam-groeneveld/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/midas-meijs/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/miriam-groeneveld/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/miriam-groeneveld/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1775,19 +1775,19 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/peter-bandi/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/members/peter-bandi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/rashindra-manniesing/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/peter-bandi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/rashindra-manniesing/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/rashindra-manniesing/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1851,11 +1851,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/rita-bylsma/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/rita-bylsma/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/rita-bylsma/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/rita-bylsma/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2051,11 +2051,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/sil-van-de-leemput/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/sil-van-de-leemput/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2079,11 +2079,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/sjoerd-kerkstra/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/sjoerd-kerkstra/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/sjoerd-kerkstra/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/sjoerd-kerkstra/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2135,11 +2135,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/sven-lafebre/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/sven-lafebre/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/sven-lafebre/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/sven-lafebre/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2323,11 +2323,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/zaneta-swiderska-chadaj/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/zaneta-swiderska-chadaj/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/zaneta-swiderska-chadaj/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/zaneta-swiderska-chadaj/</loc>
     <priority>1.0</priority>
   </url>
   <url>
