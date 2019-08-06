@@ -151,6 +151,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/kox11/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/mook09/</loc>
     <priority>1.0</priority>
   </url>
@@ -332,6 +336,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/ciom15a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/geij18/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1032,6 +1040,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/valk19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/bejn17a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
