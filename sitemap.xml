@@ -751,6 +751,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/mor18/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/vacancies/deep-learning-for-artifacts/</loc>
     <priority>1.0</priority>
   </url>
@@ -872,6 +876,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/ciom09a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/mor16/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1355,6 +1363,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/nikita-moriakov/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/silv17a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1392,6 +1404,14 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/ginn15/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/mori17/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/haas18/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1672,6 +1692,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/miriam-groeneveld/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/nikita-moriakov/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2076,6 +2100,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/venh15c/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/vug18/</loc>
     <priority>1.0</priority>
   </url>
   <url>
