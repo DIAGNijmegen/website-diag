@@ -183,6 +183,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/vree19/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/jaco10f/</loc>
     <priority>1.0</priority>
   </url>
@@ -1331,6 +1335,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/mehmet-dalmis/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/</loc>
     <priority>1.0</priority>
   </url>
@@ -1743,6 +1751,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/mehmet-dalmis/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/merijn-van-erp/</loc>
     <priority>1.0</priority>
   </url>
@@ -1988,6 +2000,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/sil-van-de-leemput/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/dalm15c/</loc>
     <priority>1.0</priority>
   </url>
   <url>
