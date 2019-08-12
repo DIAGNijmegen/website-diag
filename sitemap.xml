@@ -1363,6 +1363,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/miguel-fernandes/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/miriam-groeneveld/</loc>
     <priority>1.0</priority>
   </url>
@@ -1752,6 +1756,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/midas-meijs/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/miguel-fernandes/</loc>
     <priority>1.0</priority>
   </url>
   <url>
