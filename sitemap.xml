@@ -615,6 +615,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/meij19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/pegg17a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1199,6 +1203,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/ares19/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/james-meakin/</loc>
     <priority>1.0</priority>
   </url>
@@ -1412,6 +1420,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/mann05a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/tell19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
