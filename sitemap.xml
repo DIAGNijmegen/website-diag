@@ -547,6 +547,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/bram_van_ginneken/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/maka10/</loc>
     <priority>1.0</priority>
   </url>
@@ -1836,6 +1840,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/bart-liefers/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/bram_van_ginneken/</loc>
     <priority>1.0</priority>
   </url>
   <url>
