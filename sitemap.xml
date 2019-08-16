@@ -1607,6 +1607,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/nikolas_lessmann/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/silv17a/</loc>
     <priority>1.0</priority>
   </url>
@@ -1996,6 +2000,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/nikita-moriakov/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/nikolas_lessmann/</loc>
     <priority>1.0</priority>
   </url>
   <url>
