@@ -191,6 +191,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/vacancies/deep-learning-lung-immune-therapy/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/ajay-patel/</loc>
     <priority>1.0</priority>
   </url>
@@ -872,10 +876,6 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/vacancies/deep-learning-for-artifacts/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/deep-learning-lung-immune-therapy/</loc>
     <priority>1.0</priority>
   </url>
   <url>
