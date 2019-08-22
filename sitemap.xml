@@ -123,6 +123,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/lief19b/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/plui12/</loc>
     <priority>1.0</priority>
   </url>
@@ -1548,6 +1552,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/ghaf17a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/herm19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
