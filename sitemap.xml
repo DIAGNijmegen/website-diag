@@ -311,6 +311,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/projects/predict-immunotherapy-response/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/arta09/</loc>
     <priority>1.0</priority>
   </url>
