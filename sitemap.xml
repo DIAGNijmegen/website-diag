@@ -1635,6 +1635,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/murp11/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/home/</loc>
     <priority>1.0</priority>
   </url>
@@ -2391,7 +2395,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/keelin_murphy/</loc>
+    <loc>https://beta.diagnijmegen.nl/members/keelin-murphy/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3115,7 +3119,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/keelin_murphy/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/keelin-murphy/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3256,6 +3260,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/takx14/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/hoop10/</loc>
     <priority>1.0</priority>
   </url>
   <url>
