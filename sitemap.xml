@@ -1751,6 +1751,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/ecem-lago/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/ciom09/</loc>
     <priority>1.0</priority>
   </url>
@@ -1808,6 +1812,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/bult19/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/erdi-calli/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3043,11 +3051,19 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/ecem-lago/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/elke-loskamp-huntink/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/emiel-stoelinga/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/erdi-calli/</loc>
     <priority>1.0</priority>
   </url>
   <url>
