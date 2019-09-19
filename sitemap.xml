@@ -1543,10 +1543,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/balk19a/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/vacancies/deep-learning-for-the-differentiation-of-stic-lesions/</loc>
     <priority>1.0</priority>
   </url>
@@ -3655,6 +3651,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/leem19c/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/gatt14/</loc>
     <priority>1.0</priority>
   </url>
@@ -3944,6 +3944,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/vacancies/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/deso19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
