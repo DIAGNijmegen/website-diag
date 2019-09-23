@@ -1027,7 +1027,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/cab18/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/caba18a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1232,6 +1232,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/heuv18/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/abel19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1540,6 +1544,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/litj16c/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/balk19b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2084,6 +2092,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/taou13/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/hali19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3311,6 +3323,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/tell19a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/niek11/</loc>
     <priority>1.0</priority>
   </url>
@@ -3895,10 +3911,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/pinc18/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/publications/ghaf17b/</loc>
     <priority>1.0</priority>
   </url>
@@ -3952,6 +3964,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/baid18a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/stur19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
