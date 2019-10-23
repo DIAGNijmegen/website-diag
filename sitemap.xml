@@ -551,6 +551,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/heuv18b/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/heuv17d/</loc>
     <priority>1.0</priority>
   </url>
@@ -1660,6 +1664,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/murp11/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/heuv17a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3327,6 +3335,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/thomas-van-den-heuvel/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/tristan-payer/</loc>
     <priority>1.0</priority>
   </url>
@@ -3920,6 +3932,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/thomas-de-bel/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/thomas-van-den-heuvel/</loc>
     <priority>1.0</priority>
   </url>
   <url>
