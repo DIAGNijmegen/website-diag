@@ -1555,6 +1555,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/zels18/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/less16/</loc>
     <priority>1.0</priority>
   </url>
@@ -2603,6 +2607,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/matthieu-rutten/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/maud-wekking/</loc>
     <priority>1.0</priority>
   </url>
@@ -3251,6 +3259,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/matthieu-rutten/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/maud-wekking/</loc>
     <priority>1.0</priority>
   </url>
@@ -3783,6 +3795,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/bax09/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/ciom13/</loc>
     <priority>1.0</priority>
   </url>
@@ -3840,6 +3856,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/stav96/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/zels17b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
