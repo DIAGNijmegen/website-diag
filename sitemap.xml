@@ -2711,6 +2711,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/sanc09b/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/heri19/</loc>
     <priority>1.0</priority>
   </url>
@@ -3608,6 +3612,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/sanc09a/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/sanc08b/</loc>
     <priority>1.0</priority>
   </url>
   <url>
