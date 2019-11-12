@@ -1023,6 +1023,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/maie19/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/ven15/</loc>
     <priority>1.0</priority>
   </url>
@@ -2092,6 +2096,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/lass14/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/argu19/</loc>
     <priority>1.0</priority>
   </url>
   <url>
