@@ -515,6 +515,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/vacancies/avf-detection/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/ehte16a/</loc>
     <priority>1.0</priority>
   </url>
@@ -2528,10 +2532,6 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/koen-dercksen/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/avf-detection/</loc>
     <priority>1.0</priority>
   </url>
   <url>
