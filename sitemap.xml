@@ -371,10 +371,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/members/anton-meijer/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/publications/arzh07b/</loc>
     <priority>1.0</priority>
   </url>
@@ -1211,10 +1207,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/meij15b/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/publications/saks14/</loc>
     <priority>1.0</priority>
   </url>
@@ -2016,6 +2008,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/meij18b/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/fazael-ayatollahi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3207,10 +3203,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/anton-meijer/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/publications/babak-ehteshami-bejnordi/</loc>
     <priority>1.0</priority>
   </url>
@@ -3260,6 +3252,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/erdi-calli/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/fazael-ayatollahi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3636,10 +3632,6 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/gall14/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://beta.diagnijmegen.nl/publications/stee16/</loc>
     <priority>1.0</priority>
   </url>
   <url>
