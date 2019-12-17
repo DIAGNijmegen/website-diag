@@ -403,6 +403,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/bokh19b/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/balo18/</loc>
     <priority>1.0</priority>
   </url>
@@ -3660,6 +3664,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/vacancies/research-software-engineer-digital-pathology/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/band19a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
