@@ -5,11 +5,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://beta.diagnijmegen.nl/publications/stoi17a/">
+    <link rel="canonical" href="https://beta.diagnijmegen.nl/publications/merc20/">
 
 
 
-    <title>Feasibility of multireference tissue normalization of T2-weighted prostate MRI. - Diagnostic Image Analysis Group</title>
+    <title>Virtual staining for mitosis detection in Breast Histopathology - Diagnostic Image Analysis Group</title>
 
 
     <!-- Search Engine -->
@@ -17,19 +17,19 @@
     <meta name="image" content="">
 
     <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Feasibility of multireference tissue normalization of T2-weighted prostate MRI. - Diagnostic Image Analysis Group">
+    <meta itemprop="name" content="Virtual staining for mitosis detection in Breast Histopathology - Diagnostic Image Analysis Group">
     <meta itemprop="description" content="">
     <meta itemprop="image" content="">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Feasibility of multireference tissue normalization of T2-weighted prostate MRI. - Diagnostic Image Analysis Group">
+    <meta name="twitter:title" content="Virtual staining for mitosis detection in Breast Histopathology - Diagnostic Image Analysis Group">
     <meta name="twitter:description" content="">
     <meta name="twitter:creator" content="@diagnijmegen">
     <meta name="twitter:image:src" content="">
 
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta property="og:title" content="Feasibility of multireference tissue normalization of T2-weighted prostate MRI. - Diagnostic Image Analysis Group">
+    <meta property="og:title" content="Virtual staining for mitosis detection in Breast Histopathology - Diagnostic Image Analysis Group">
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:site_name" content="Diagnostic Image Analysis Group">
@@ -248,23 +248,28 @@
 
 
           <li class="breadcrumb-item"><a href="https://beta.diagnijmegen.nl/publications/">Publications</a></li>
-        <li class="breadcrumb-item">Feasibility of multireference tissue normalization of T2-weighted prostate MRI.</li>
+        <li class="breadcrumb-item">Virtual staining for mitosis detection in Breast Histopathology</li>
       </ol>
     </nav>
 </div>
     <div class="container">
-    <h1 class="page-title">Feasibility of multireference tissue normalization of T2-weighted prostate MRI.</h1>
+    <h1 class="page-title">Virtual staining for mitosis detection in Breast Histopathology</h1>
 
     <p class="lead">
-            L. Stoilescu,             M.C. Maas and H. Huisman    </p>
+            C. Mercan,             G. Reijnen-Mooij,             D. Tellez Martin,             J. Lotz,             N. Weiss,             M. van Gerven and F. Ciompi    </p>
 
-    <p>in: <i>European Society for Magnetic Resonance in Medicine and Biology</i>, 2017</p>
+    <p>in: <i>IEEE International Symposium on Biomedical Imaging</i>, 2020</p>
     <p>
     </p>
     <h2>Abstract</h2>
-    <p>Purpose / Introduction Prostate MRI finds 18% more clinically significant prostate cancer while avoiding 27% biopsies [1]. Reproducibility for multi�?parametric ﴾T2+DWI+DCE﴿ prostate MRI ﴾mpMRI﴿ is moderate [2] even though a PIRADS reading standard is available [3]. Quantification could help improve reproducibility, which to some extent works for ADC. Scanner provided T2 maps are no solution as it leads to a different texture, lower spatial resolution and increased scan time. We have previously developed a method for normalizing T2�?weighted images [4]. The normalized value achieved a diagnostic accuracy ﴾AUC﴿ of 0.85 over 0.64 for the raw T2�?weighted values. That method required a separate proton density weighted sequence, an exact knowledge of the sequence model and one reference tissue region. We propose a new method using multiple reference tissues that does not require an additional sequence, nor detailed knowledge about the sequence model. The recent development of deep learning makes it feasible to segment multiple reference tissues. The hypothesis is that the reference tissues allow building a patient specific model to normalize the T2�?weighted prostate MR images for quantitative use. Subjects and Methods To test the hypothesis we manually delineated reference tissues and tumor lesions in mpMRI studies of prostate cancer patients. All lesions were interpreted by expert radiologists and assigned a PIRADS score. The normalized T2 was then validated for its ability to discriminate PIRADS 2�?3 from 4�?5 classes. Regions of interest ﴾ROI﴿ were drawn in four distinct tissue types in fifty T2�?weighted images from regular multiparametric prostate MRI ﴾mpMRI﴿. The four reference tissue types were: obturator internus muscle, body fat, femoral head, bladder lumen. Four average ROI signals were computed per patient. Each reference tissue was assigned a fixed reference value ﴾T2 relaxation found in literature﴿. Per patient, a smooth spline model was fitted to the ﴾average, reference﴿ pairs. The estimated spline model was then inverted to map patients' raw T2�?weighted image scalar values to normalized values. The effect of the normalization was determined by computing and comparing the diagnostic accuracy using ROC analysis. Results The area under the ROC ﴾AUC﴿ was significantly higher ﴾p&lt;0.05﴿ in normalized T2.5/22/2017 #542: Feasibility of multireference tissue normalization of T2­weighted prostate MRI.  Discussion / Conclusion The significant improvement of the diagnostic accuracy demonstrates the potential of our normalization method for the quantitative interpretation of T2�? weighted prostate MRI. The results were similar to our previous method.The method still requires manual delineation of multiple reference tissues, however, we will develop deep learning segmentation methods to automate the method and enable regular clinical use. References 1. Ahmed, Hashim U., et al. "Diagnostic accuracy of multi�?parametric MRI and TRUS biopsy in prostate cancer ﴾PROMIS﴿: a paired validating confirmatory study." The Lancet 389.10071 ﴾2017﴿: 815�?822. 2. Rosenkrantz, Andrew B., et al. "Interobserver reproducibility of the PI�?RADS version 2 lexicon: a multicenter study of six experienced prostate radiologists." Radiology 280.3 ﴾2016﴿: 793�?804. 3. Barentsz JO, et al. Synopsis of the PI�?RADS v2 Guidelines for Multiparametric Prostate Magnetic Resonance Imaging and Recommendations for Use. Eur. Urol. 2016;69﴾1﴿:41–49. 4. Vos, Pieter C., et al. "Computer�?assisted analysis of peripheral zone prostate lesions using T2�?weighted and dynamic contrast�?enhanced T1�?weighted MRI." Physics Med. &amp; Biol. 55.6 ﴾2010﴿: 1719</p>
+    <p>We propose a virtual staining methodology based on Generative Adversarial Networks to map histopathology images of breast cancer tissue from H&amp;E stain to PHH3 and vice versa. We use the resulting synthetic images to build Convolutional Neural Networks (CNN) for automatic detection of mitotic figures, a strong prognostic biomarker used in routine breast cancer diagnosis and grading. We propose several scenarios, in which CNN trained with synthetically generated histopathology images perform on par with or even better than the same baseline model trained with real images. We discuss the potential of this application to scale the number of training samples without the need for manual annotations.</p>
 
 
+    <h2>Request PDF</h2>
+
+    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+
+    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=merc20&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
     </div>
     </main>
 
@@ -273,7 +278,7 @@
         <div class="row">
             <div class="col-md-11 py-3 footer-content">
                 <p>
-                    <a href="https://github.com/diagnijmegen/website-content/edit/master/website-diag/content/pages/publications/stoi17a.md">&copy;</a>
+                    <a href="https://github.com/diagnijmegen/website-content/edit/master/website-diag/content/pages/publications/merc20.md">&copy;</a>
 
                     Diagnostic Image Analysis Group 2020. <a href="https://beta.diagnijmegen.nl/colofon">Colofon</a>.
                 </p>
