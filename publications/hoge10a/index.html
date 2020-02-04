@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Automatic detection of tuberculosis (TB) on chest radiographs is a difficult problem because of the diverse presentation of the disease. A combination of detection systems for abnormalities and normal anatomy is used to improve detection performance. A textural abnormality detection system operating at the pixel level is combined with a clavicle detection system to suppress false positive responses. The output of a shape abnormality detection system operating at the image level is combined in a next step to further improve performance by reducing false negatives. Strategies for combining systems based on serial and parallel configurations were evaluated using the minimum, maximum, product, and mean probability combination rules. The performance of TB detection increased, as measured using the area under the ROC curve, from 0.67 for the textural abnormality detection system alone to 0.86 when the three systems were combined. The best result was achieved using the sum and product rule in a parallel combination of outputs</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=hoge10a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=hoge10a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

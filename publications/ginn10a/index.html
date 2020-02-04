@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Numerous publications and commercial systems are available that deal with automatic detection of pulmonary nodules in thoracic computed tomography scans, but a comparative study where many systems are applied to the same data set has not yet been performed. This paper introduces ANODE09 (http://anode09.isi.uu.nl), a database of 55 scans from a lung cancer screening program and a web-based framework for objective evaluation of nodule detection algorithms. Any team can upload results to facilitate benchmarking. The performance of six algorithms for which results are available are compared; five from academic groups and one commercially available system. A method to combine the output of multiple systems is proposed. Results show a substantial performance difference between algorithms, and demonstrate that combining the output of algorithms leads to marked performance improvements.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ginn10a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ginn10a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

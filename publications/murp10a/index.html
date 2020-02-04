@@ -264,12 +264,28 @@
     <h2>Abstract</h2>
     <p>EMPIRE10 is a public platform for fair and meaningful comparison of registration algorithms which are applied to a database of intra-patient thoracic CT image pairs. Participants download 20 datasets from the internet, register them, and return the results for independent evaluation. Evaluation is carried out in four separate categories and participants are ranked according to their performance. All results are published on the EMPIRE10 website [1]. The Grand Challenge workshop at MICCAI 2010 [2] brings participants together to register a further 10 scan pairs live on site and for discussion and collaboration opportunities.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=murp10a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=murp10a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

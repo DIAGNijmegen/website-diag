@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Small airway obstruction is a main cause for chronic obstructive pulmonary disease (COPD). We propose a novel method based on machine learning to extract the airway system from a thoracic computed tomography (CT) scan. The emphasis of the proposed method is on including the smallest airways that are still visible on CT. We used an optimized sampling procedure to extract airway and non-airway voxel samples from a large set of scans for which a semi-automatically constructed reference standard was available. We created a set of features which represent tubular and texture properties that are characteristic for small airway voxels. A random forest classifier was used to determine for each voxel if it belongs to the airway class. Our method was validated on a set of 20 clinical thoracic CT scans from the COPDGene study. Experiments show that our method is effective in extracting the full airway system and in detecting a large number of small airways that were missed by the semi-automatically constructed reference standard.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=bian18&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=bian18&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

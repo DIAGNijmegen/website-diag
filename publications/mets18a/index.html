@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Current pulmonary nodule management guidelines are based on nodule volume doubling time, which assumes exponential growth behaviour. However, this is a theory that has never been validated in vivo in the routine-care target population. This study evaluates growth patterns of untreated solid and subsolid lung cancers of various histologies in a non-screening setting.Growth behaviour of pathology-proven lung cancers from two academic centres that were imaged at least three times before diagnosis (n=60) was analysed using dedicated software. Random-intercept random-slope mixed-models analysis was applied to test which growth pattern most accurately described lung cancer growth. Individual growth curves were plotted per pathology subgroup and nodule type.We confirmed that growth in both subsolid and solid lung cancers is best explained by an exponential model. However, subsolid lesions generally progress slower than solid ones. Baseline lesion volume was not related to growth, indicating that smaller lesions do not grow slower compared to larger ones.By showing that lung cancer conforms to exponential growth we provide the first experimental basis in the routine-care setting for the assumption made in volume doubling time analysis. </p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=mets18a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=mets18a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

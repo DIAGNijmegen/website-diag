@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>We present an automatic image processing algorithm to detect hard exudates. Automatic detection of hard exudates from retinal images is an important problem since hard exudates are associated with diabetic retinopathy and have been found to be one of the most prevalent earliest signs of retinopathy. The algorithm is based on Fisher's linear discriminant analysis and makes use of colour information to perform the classification of retinal exudates. We prospectively assessed the algorithm performance using a database containing 58 retinal images with variable colour, brightness, and quality. Our proposed algorithm obtained a sensitivity of 88\% with a mean number of 4.83+/-4.64 false positives per image using the lesion-based performance evaluation criterion, and achieved an image-based classification accuracy of 100\% (sensitivity of 100\% and specificity of 100\%).</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=sanc08&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=sanc08&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

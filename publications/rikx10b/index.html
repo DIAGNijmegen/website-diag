@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>An automatic segmentation method that fails for one scan of a patient is likely to fail in all follow up scans as well. We propose to construct a patient specific k-nearest neighbor classifier that learns from the test data while the user is interactively correcting the segmentation in the baseline scan. We apply the system to lung segmentation in chest CT scans. The system is set up in such a way that interaction is limited to single clicks in misclassified areas. Voxels indicated by a user as erroneously labeled are added to the training data. In classification, patient specific confidence weights are applied relative to the similarity between the test and training samples. The method is quantitatively validated on baseline and follow up scans from 16 patients. The results improve substantially in both baseline and follow up scans with only five clicks from the user in the baseline scan on average.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=rikx10b&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=rikx10b&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>This work presents a system for automatic coronary calcium scoring and cardiovascular risk stratification in thoracic CT scans. Data was collected from a Dutch-Belgian lung cancer screening trial. In 121 low-dose, non-ECG synchronized, non-contrast enhanced thoracic CT scans an expert scored coronary calcifications manually. A key element of the proposed algorithm is that the approximate position of the coronary arteries was inferred with a probabilistic coronary calcium atlas. This atlas was created with atlas-based segmentation from 51 scans and their manually identified calcifications, and was registered to each unseen test scan. In the test scans all objects with density above 130 HU were considered candidates that could represent coronary calcifications. A statistical pattern recognition system was designed to classify these candidates using features that encode their spatial position relative to the inferred position of the coronaries obtained from the atlas registration. In addition, size and texture features were computed for all candidates. Two consecutive classifiers were used to label each candidate. The system was trained with 35 and tested with another 35 scans. The detected calcifications were quantified and cardiovascular risk was determined for each subject. The system detected 71% of coronary calcifications with an average of 0.9 false positive objects per scan. Cardiovascular risk category was correctly assigned to 29 out of 35 subjects (83%). Five scans (14%) were one category off, and only one scan (3%) was two categories off. We conclude that automatic assessment of the cardiovascular risk from low-dose, non-ECG synchronized thoracic CT scans appears feasible.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=isgu10a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=isgu10a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

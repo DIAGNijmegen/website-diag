@@ -264,12 +264,28 @@
     <h2>Abstract</h2>
     <p>PURPOSE To present a method for computer aided classification of lesions in Automated 3D Breast Ultrasound (ABUS) and to determine how well it performs in comparison to radiologists. METHOD AND MATERIALS: A method for characterizing lesions in ABUS was developed. Lesions are automatically segmented when a seed point is provided, using dynamic programming in combination with a spiral scanning technique. This method produces reliable lesion boundaries in the presence of shadowing and speckle. Subsequently, features representing spiculation, lesion shape, margin contrast, posterior enhancement, texture, and echogenicity are computed. Spiculation is computed in the coronal planes, other features are calculated in 3D. Linear Discriminant Analysis is used to determine a malignancy rating for each lesion. To train the system we used leave-one-out. Images for training and testing were obtained from three institutes using the Somo*V system (U-systems, Sunnyvale, CA). Images of 88 patients were used for evaluation. Each image had one lesion, 41 were benign and 47 were cancers. Six readers (4 radiologists and 2 residents) read the series of cases on a dedicated workstation and rated each lesion on a continuous scale ranging from 0 to 100. Performance of the readers was compared with CAD standalone using ROC analysis (DBM MRMC 2.2). RESULTS: Spiculation and margin contrast were the most discriminative features. With an AUC value of 0.917 the CAD system performed as good as the best reader (0.918). The average AUC of the radiologists was 0.881. The residents obtained an AUC of 0.818. The difference between CAD and the readers was not significant (p=0.11) CONCLUSION: A novel method for characterizing lesions in ABUS was developed which performs as well as a good radiologist. Coronal spiculation, which is not visible in traditional handheld ultrasound, appeared to be an effective feature. CLINICAL RELEVANCE/APPLICATION: A CAD system for classification of lesions in automated 3D ultrasound can be used as a second reader in screening and clinical practice, and may reduce false positive recalls or and/or biopsies.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=kars11&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=kars11&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

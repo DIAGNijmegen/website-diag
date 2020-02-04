@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>RATIONALE AND OBJECTIVES: We sought to explore the feasibility of magnetic resonance imaging (MRI) of the prostate at 3T, with the knowledge of potential drawbacks of MRI at high field strengths. MATERIAL AND METHOD: MRI, dynamic MRI, and 1H-MR spectroscopic imaging were performed in 10 patients with prostate cancer on 1.5T and 3T whole-body scanners. Comparable scan protocols were used, and additional high-resolution measurements at 3T were acquired. For both field strengths the signal-to-noise ratio was calculated and image quality was assessed. RESULT: At 3T the signal-to-noise ratio improved. This resulted in increased spatial MRI resolution, which significantly improved anatomic detail. The increased spectral resolution improved the separation of individual resonances in MRSI. Contrast-enhanced time-concentration curves could be obtained with a doubled temporal resolution. CONCLUSIONS: Initial results of endorectal 3T 1H-MR spectroscopic imaging in prostate cancer patients showed potential advantages: the increase in spatial, temporal, and spectral resolution at higher field strength may result in an improved accuracy in delineating and staging prostate cancer.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=fuett04&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=fuett04&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

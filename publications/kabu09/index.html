@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>Non-rigid registration accuracy assessment is typically performed by evaluating the target registration error at manually placed landmarks. For 4D-CT lung data, we compare two sets of landmark distributions: a smaller set primarily defined on vessel bifurcations as commonly described in the literature and a larger set being well-distributed throughout the lung volume. For six different registration schemes (three in-house schemes and three schemes frequently used by the community) the landmark error is evaluated and found to depend significantly on the distribution of the landmarks. In particular, lung regions near to the pleura show a target registration error three times larger than near-mediastinal regions. While the inter-method variability on the landmark positions is rather small, the methods show discriminating differences with respect to consistency and local volume change. In conclusion, both a well-distributed set of landmarks and a deformation vector field analysis are necessary for reliable non-rigid registration accuracy assessment.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=kabu09&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=kabu09&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

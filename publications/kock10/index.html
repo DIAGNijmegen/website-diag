@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>This study describes a system for interactive annotation of thoracic CT scans. Lung volumes in these scans are segmented and subdivided into roughly spherical volumes of interest (VOIs) with homogeneous texture using a clustering procedure. For each 3D VOI, 72 features are calculated. The observer inspects the scan to determine which textures are present and annotates, with mouse clicks, several VOIs of each texture. Based on these annotations, a k-nearest-neighbor classifier is trained, which classifies all remaining VOIs in the scan. The algorithm then presents a slice with suggested annotations to the user, in which the user can correct mistakes. The classifier is retrained, taking into account these new annotations, and the user is presented another slice for correction. This process continues until at least 50% of all lung voxels in the scan have been classified. The remaining VOIs are classified automatically. In this way, the entire lung volume is annotated. The system has been applied to scans of patients with usual and non-specific interstitial pneumonia. The results of interactive annotation are compared to a setup in which the user annotates all predefined VOIs manually. The interactive system is 3.7 times as fast as complete manual annotation of VOIs and differences between the methods are similar to interobserver variability. This is a first step towards precise volumetric quantitation of texture patterns in thoracic CT in clinical research and in clinical practice.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=kock10&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=kock10&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

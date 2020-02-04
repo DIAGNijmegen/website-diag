@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Adding magnetic resonance (MR)-derived information to standard transrectal ultrasound (TRUS) images for guiding prostate biopsy is of substantial clinical interest. A tumor visible on MR images can be projected on ultrasound (US) by using MR-US registration. A common approach is to use surface-based registration. The authors hypothesize that biomechanical modeling will better control deformation inside the prostate than a regular nonrigid surface-based registration method. The authors developed a novel method by extending a nonrigid surface-based registration algorithm with biomechanical finite element (FE) modeling to better predict internal deformations of the prostate.Data were collected from ten patients and the MR and TRUS images were rigidly registered to anatomically align prostate orientations. The prostate was manually segmented in both images and corresponding surface meshes were generated. Next, a tetrahedral volume mesh was generated from the MR image. Prostate deformations due to the TRUS probe were simulated using the surface displacements as the boundary condition. A three-dimensional thin-plate spline deformation field was calculated by registering the mesh vertices. The target registration errors (TREs) of 35 reference landmarks determined by surface and volume mesh registrations were compared.The median TRE of a surface-based registration with biomechanical regularization was 2.76 (0.81-7.96) mm. This was significantly different than the median TRE of 3.47 (1.05-7.80) mm for regular surface-based registration without biomechanical regularization.Biomechanical FE modeling has the potential to improve the accuracy of multimodal prostate registration when comparing it to a regular nonrigid surface-based registration algorithm and can help to improve the effectiveness of MR guided TRUS biopsy procedures.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ven15&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ven15&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

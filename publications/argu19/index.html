@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>Chronic Obstructive Pulmonary Disease (COPD) is a leading cause of morbidity and mortality. While COPD diagnosis is based on lung function tests, early stages and progression of different aspects of the disease can be visible and quantitatively assessed on computed tomography (CT) scans. Many studies have been published that quantify imaging biomarkers related to COPD. In this paper we present a convolutional neural network that directly computes visual emphysema scores and predicts the outcome of lung function tests for 195 CT scans from the COPDGene study. Contrary to previous work, the proposed method does not encode any specific prior knowledge about what to quantify, but it is trained end-to-end with a set of 1424 CT scans for which the output parameters were available. The network provided state-of-the-art results for these tasks: Visual emphysema scores are comparable to those assessed by trained human observers; COPD diagnosis from estimated lung function reaches an area under the ROC curve of 0.94, outperforming prior art. The method is easily generalizable to other situations where information from whole scans needs to be summarized in single quantities.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=argu19&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=argu19&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

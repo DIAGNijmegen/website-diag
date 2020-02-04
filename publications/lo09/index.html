@@ -264,12 +264,28 @@
     <h2>Abstract</h2>
     <p>This paper describes a framework for evaluating airway extraction algorithms in a standardized manner and establishing reference segmentations that can be used for future algorithm development. Because of the sheer difficulty of constructing a complete reference standard manually, we propose to construct a reference using results from the algorithms being compared, by splitting each airway tree segmentation result into individual branch segments that are subsequently visually inspected by trained observers. Using the so constructed reference, a total of seven performance measures covering different aspects of segmentation quality are computed. We evaluated 15 airway tree extraction algorithms from different research groups on a diverse set of 20 chest CT scans from subjects ranging from healthy volunteers to patients with severe lung disease, who were scanned at different sites, with several different CT scanner models, and using a variety of scanning protocols and reconstruction parameters.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=lo09&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=lo09&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

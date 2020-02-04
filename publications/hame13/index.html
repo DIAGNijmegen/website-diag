@@ -267,12 +267,28 @@
     <h2>Abstract</h2>
     <p>The distensibility of a blood vessel is a marker of atherosclerotic disease. In this paper we investigate the feasibility of measuring carotid artery distensibility on 4D CTA, both manually and using a new automatic method. On 4D CTA datasets manual (n=38) and automatic (n=76) measurements of the carotid distensibility were performed. A subset (n=10) of the manual annotations were repeated by a second observer. The interobserver variability was assessed using a Bland-Altman analysis and appeared to be too large to reliably measure the distensibility using manual annotation. We compared two versions of the automatic method: one using 3D registration and one using a 4D registration method. The latter resulted in a more smooth deformation over time. The automatic method was evaluated using a synthetic deformation and by investigating whether known relations with cardiovascular risk factors could be reproduced. The relation between distensibility and cardiovascular risk factors was tested with a Mann-Whitney U test. Automatic measurements revealed an association with hypertension whereas the manual measurements did not. This relation has been found by other studies too. We conclude that carotid artery distensibility measurements should be performed automatically and that the method described in this paper is suitable for that. All CTA datasets and related clinical data used in this study can be downloaded from our website (http://ctadist.bigr.nlhttp://ctadist.bigr.nl).</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=hame13&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=hame13&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

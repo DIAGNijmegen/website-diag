@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>Deep-learning-based segmentation tools have yielded higher reported segmentation accuracies for many medical imaging applications. However, inter-site variability in image properties can challenge the translation of these tools to data from ‘unseen’ sites not included in the training data. This study quantifies the impact of inter-site variability on the accuracy of deep-learning-based segmentations of the prostate from magnetic resonance (MR) images, and evaluates two strategies for mitigating the reduced accuracy for data from unseen sites: training on multi-site data and training with limited additional data from the unseen site. Using 376 T2-weighted prostate MR images from six sites, we compare the segmentation accuracy (Dice score and boundary distance) of three deep-learning-based networks trained on data from a single site and on various configurations of data from multiple sites. We found that the segmentation accuracy of a single-site network was substantially worse on data from unseen sites than on data from the training site. Training on multi-site data yielded marginally improved accuracy and robustness. However, including as few as 8 subjects from the unseen site, e.g. during commissioning of a new clinical system, yielded substantial improvement (regaining 75% of the difference in Dice score).</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=gibs18&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=gibs18&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

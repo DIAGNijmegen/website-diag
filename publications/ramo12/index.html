@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>Content based image retrieval (CBIR) is employed in medicine to improve radiologistsÃ¯Â¿Â½ diagnostic performance. Today effective medical CBIR systems are limited to specific applications, as to reduce the amount of medical knowledge to model. Although supervised approaches could ease the incorporation of medical expertise, its application is not common due to the scarce number of available user annotations. This paper introduces the application of radiology reports to supervise CBIR systems. The concept is to make use of the textual distances between reports to build a transformation in image space through a manifold learning algorithm. A comparison was made between the presented approach and non-supervised CBIR systems, using a Leave-One- Patient-Out evaluation in a database of computer tomography scans of interstitial lung diseases. Supervised CBIR augmented the mean average precision consistently with an increase between 3 to 8 points, which suggests supervision by radiology reports increases CBIR performance.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ramo12&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ramo12&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

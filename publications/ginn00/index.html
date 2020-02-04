@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>An automatic method for the delineation of posterior ribs in frontal chest radiographs is presented. We develop a statistical shape model for the complete rib cage. Contrary to previous work, we fit the global rib cage directly to a radiograph, instead of detecting rib border candidates locally and applying rules to infer the rib cage from these candidates. Each posterior rib is modeled by two parallel parabolas. The full rib cage, from rib 2 up and including rib 10, therefore contains 72 parameters. This number is reduced with principal component analysis: It is demonstrated that 10 parameters explain over 98% of the variability in a training set of 35 chest radiographs. The rib cage is fitted with Powell's direction set method for optimizing the model parameters, with a fit measure that gives high output when rib borders are located on edge pixels in the image. The method is robust and fairly accurate: On the 35 test images with a resolution of 512 by 512 pixels, rib borders are located with an accuracy of 3 pixels on average.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ginn00&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=ginn00&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Automatic segmentation of structures with missing or invisible borders is a challenging task. Since structures in the lungs are related, humans use contextual and shape information to infer the position of invisible borders. An example of a task in which the borders are often incomplete or invisible is the segmentation of the pulmonary lobes. In this paper, a fully automatic segmentation of the pulmonary lobes in chest CT scans is presented. The method is especially designed to be robust to incomplete fissures by incorporating contextual information from automatic lung, fissure, and bronchial tree segmentations, as well as shape information. Since the method relies on the result of automatic segmentations, it is important that the method is robust against failure of one or more of these segmentation methods. In an extensive experiment on 10 chest CT scans with manual segmentations, the robustness of the method to incomplete fissures and missing input segmentations is shown. In a second experiment on 100 chest CT scans with incomplete fissures, the method is shown to perform well.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=rikx09a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=rikx09a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

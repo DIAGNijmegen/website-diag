@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>In this work we compare the performance of a number of vessel segmentation algorithms on a newly constructed retinal vessel image database. Retinal vessel segmentation is important for the detection of numerous eye diseases and plays an important role in automatic retinal disease screening systems. A large number of methods for retinal vessel segmentation have been published, yet an evaluation of these methods on a common database of screening images has not been performed. To compare the performance of retinal vessel segmentation methods we have constructed a large database of retinal images. The database contains forty images in which the vessel trees have been manually segmented. For twenty of those forty images a second independent manual segmentation is available. This allows for a comparison between the performance of automatic methods and the performance of a human observer. The database is available to the research community. Interested researchers are encouraged to upload their segmentation results to our website (http://www.isi.uu.nl/Research/Databases). The performance of five different algorithms has been compared. Four of these methods have been implemented as described in the literature. The fifth pixel classification based method was developed specifically for the segmentation of retinal vessels and is the only supervised method in this test. We define the segmentation accuracy with respect to our gold standard as the performance measure. Results show that the pixel classification method performs best, but the second observer still performs significantly better.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=niem04a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=niem04a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

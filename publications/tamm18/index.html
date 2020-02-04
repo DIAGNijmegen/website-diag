@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Purpose In lung cancer screening practice using low-dose computed tomography (LDCT), diameter or volumetric measurement have been used in the management of screen detected lung nodules. The aim of this study is to compare the performance of nodule malignancy risk prediction tools using diameter or volume and between computer-aided detection (CAD) and radiologist measurements. Methods: Multivariable logistic regression models were prepared using data from two multi-center lung cancer screening trials. For model development and validation, baseline LDCT scans from the PanCan Study and a subset of National Lung Screening Trial (NLST) scans with lung nodule ≥3 mm in mean diameter were analysed using the CIRRUS Lung Screening Workstation (Radboud University Medical Center, Nijmegen, the Netherlands). In the NLST sample, nodules with cancer had been matched on size to nodules without cancer. Results: Both CAD-based mean diameter and volume models showed excellent discrimination and calibration, with similar areas under the receiver-operating-characteristic curves of 0.947. The two CAD models had similar predictive performance to the radiologist-based model. In NLST validation data, the CAD Mean Diameter and Volume models also demonstrated excellent discrimination: AUC’s 0.810 and 0.821, respectively. These performance statistics are similar to the PanCan Malignancy Probability Model in these data using radiologist measured maximum diameter. Conclusion: Either CAD-based nodule diameter or volume can be used to assist in predicting nodule malignancy risk.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=tamm18&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=tamm18&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

@@ -267,12 +267,28 @@
     <h2>Abstract</h2>
     <p>The imaging workup in acute stroke can be simplified by deriving non-contrast CT (NCCT) from CT perfusion (CTP) images. This results in reduced workup time and radiation dose. To achieve this, we present a stacked bidirectional convolutional LSTM (C-LSTM) network to predict 3D volumes from 4D spatiotemporal data. Several parameterizations of the C-LSTM network were trained on a set of 17 CTP-NCCT pairs to learn to derive a NCCT from CTP and were subsequently quantitatively evaluated on a separate cohort of 16 cases. The results show that the C-LSTM network clearly outperforms the baseline and competitive convolutional neural network methods. We show good scalability and performance of the method by continued training and testing on an independent dataset which includes pathology of 80 and 83 CTP-NCCT pairs, respectively. C-LSTM is, therefore, a promising general deep learning approach to learn from high-dimensional spatiotemporal medical images.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=leem19c&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=leem19c&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

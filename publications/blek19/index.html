@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Objectives To create a radiomics approach based on multiparametric magnetic resonance imaging (mpMRI) features extracted from an auto-fixed volume of interest (VOI) that quantifies the phenotype of clinically significant (CS) peripheral zone (PZ) prostate cancer (PCa).  Methods This study included 206 patients with 262 prospectively called mpMRI prostate imaging reporting and data system 3–5 PZ lesions. Gleason scores &gt; 6 were defined as CS PCa. Features were extracted with an auto-fixed 12-mm spherical VOI placed around a pin point in each lesion. The value of dynamic contrast-enhanced imaging(DCE), multivariate feature selection and extreme gradient boosting (XGB) vs. univariate feature selection and random forest (RF), expert-based feature pre-selection, and the addition of image filters was investigated using the training (171 lesions) and test (91 lesions) datasets.  Results The best model with features from T2-weighted (T2-w) + diffusion-weighted imaging (DWI) + DCE had an area under the curve (AUC) of 0.870 (95% CI 0.980–0.754). Removal of DCE features decreased AUC to 0.816 (95% CI 0.920–0.710), although not significantly (p = 0.119). Multivariate and XGB outperformed univariate and RF (p = 0.028). Expert-based feature pre-selection and image filters had no significant contribution.  Conclusions The phenotype of CS PZ PCa lesions can be quantified using a radiomics approach based on features extracted from T2-w + DWI using an auto-fixed VOI. Although DCE features improve diagnostic performance, this is not statistically significant. Multivariate feature selection and XGB should be preferred over univariate feature selection and RF. The developed model may be a valuable addition to traditional visual assessment in diagnosing CS PZ PCa.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=blek19&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=blek19&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

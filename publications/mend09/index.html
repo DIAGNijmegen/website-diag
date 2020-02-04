@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>3D CT Angiography (CTA) scans are currently used to assess the cerebral arteries. An additional 4D CT Perfusion (CTP) scan is often acquired to determine perfusion parameters in the cerebral parenchyma. We propose a method to extract a three dimensional volume showing either the arteries (arteriogram) or the veins (venogram) from the 4D CTP scan. This would allow cerebrovascular assessment using the CTP scan and obviate the need for acquiring an additional CTA scan. Preprocessing steps consist of registration of the time volumes of the CTP scan using rigid registration and masking out extracranial structures, bone and air. Next a 3D volume is extracted containing the vessels (vascular volume) by using the absolute area under the first derivative curve in time. To segment the arteries and veins we use the time to peak of the contrast enhancement curve combined with region growing within a rough vessel segmentation. Finally the artery/vein segmentation is used to suppress either the veins or the arteries in the vascular volume to construct the arteriogram and venogram. To evaluate the method, 11 arteriograms and venograms were visually inspected by an expert observer, with special attention to the important cerebral arteries (Circle of Willis) and veins (straight and transverse sinus). Results show that the proposed method is effective in extracting the major cerebral arteries and veins from CTP scans.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=mend09&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=mend09&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

@@ -264,12 +264,28 @@
     <h2>Abstract</h2>
     <p>Major causes of blindness in developed countries are retinal vascular diseases, essentially neovascular age-related macular degeneration (AMD), retinal vein occlusion (RVO) and diabetic maculopathy (DMP). Automated computer-aided detection and diagnosis~(CAD) systems capable of detecting, classifying and quantifying the characteristics of the pathology associated with these retinal diseases is highly beneficial in the diagnosis, treatment prediction and the assessment of treatment progression. Among others, the presence of retinal cysts are an important biomarker in AMD and RVO, thus their detection and segmentation is beneficial to clinical disease analysis. Optical Coherence Tomography (OCT) imaging has the ability to visualize and analyze the morphology of the retina, as well as its abnormalities. Due to the technological advances in OCT imaging with regard to imaging speed, image quality, and functional analysis, OCT is rapidly becoming one of the main imaging modalities used in clinical practice, and for the quantification and analysis of disease-specific biomarkers such as cyst volume. In this work we propose a fully automatic CAD system for retinal cyst segmentation in OCT volume scans. The system is capable of detecting cysts in OCT volumes acquired with OCT scanners from different vendors, for which the amount of noise, image quality and contrast varies strongly.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=venh15c&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=venh15c&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

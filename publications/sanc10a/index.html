@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>The performance of computer-aided diagnosis (CAD) systems can be highly in uenced by the training strategy. CAD systems are traditionally trained using available labeled data, extracted from a specific data distribution or from public databases. Due to the wide variability of medical data, these databases might not be representative enough when the CAD system is applied to data extracted from a different clinical setting, diminishing the performance or requiring more labeled samples in order to get better data generalization. In this work, we propose the incorporation of an active learning approach in the training phase of CAD systems for reducing the number of required training samples while maximizing the system performance. The benefit of this approach has been evaluated using a specific CAD system for Diabetic Retinopathy screening. The results show that 1) using a training set obtained from a different data source results in a considerable reduction of the CAD performance; and 2) using active learning the selected training set can be reduced from 1000 to 200 samples while maintaining an area under the Receiver Operating Characteristic curve of 0.856.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=sanc10a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=sanc10a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

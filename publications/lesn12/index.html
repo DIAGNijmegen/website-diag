@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>In this work, a classifier combination approach for computer aided diagnosis (CADx) of breast mass lesions in mammography (MG) and magnetic resonance imaging (MRI) is investigated, using a database with 278 and 243 findings in MG resp. MRI including 98 multimodal (MM) lesion annotations. For each modality, feature selection was performed separately with linear Support Vector Machines (SVM). Using nonlinear SVMs, calibrated unimodal malignancy estimates were obtained and fused to a multimodal (MM) estimate by averaging. Evaluating the area under the receiver operating characteristic curve (AUC), feature selection raised AUC from 0.68, 0.69 and 0.72 for MG, MRI and MM to 0.76, 0.73 and 0.81 with a significant improvement for MM (P=0.018). Multimodal classification offered increased performance compared to MG and MRI (P=0.181 and P=0.087). In conclusion, unimodal feature selection significantly increased multimodal classification performance and can provide a useful tool for generating joint CADx scores in the multimodal setting.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=lesn12&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=lesn12&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

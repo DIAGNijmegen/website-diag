@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>Segmentation and labeling of the vertebrae in CT images are important steps for automatic analysis of the spine. This paper presents an automatic method based on iterative convolutional neural networks. These utilize the inherent order of the vertebral column to simplify the detection problem, so that the network can be trained with as little as ten manual reference segmentations. Vertebrae are identified and segmented individually in sequential order, first in low-resolution images that enable the analysis of context information, and afterwards in the original high-resolution images to obtain a fine segmentation. The method was trained and evaluated with 15 spine CT scans from the MICCAI CSI 2014 workshop challenge. These scans cover the whole thoracic and lumbar part of the spine of healthy young adults. In contrast to a non-iterative convolutional neural network, the proposed method correctly identified all vertebrae. Our method achieved a mean Dice coefficient of 0.948 and a mean surface distance of 0.29 mm and thus outperforms the best method that participated in the original challenge.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=less18&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=less18&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

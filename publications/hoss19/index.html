@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>We propose and evaluate a novel method for automatically detecting clinically significant prostate cancer (csPCa) in bi-parametric magnetic resonance imaging (bpMRI). Prostate zones play an important role in the assessment of prostate cancer on MRI. We hypothesize that the inclusion of zonal information can improve the performance of a deep learning based csPCa lesion detection model. However, segmentation of prostate zones is challenging and therefore deterministic models are inaccurate. Hence, we investigated probabilistic zonal segmentation. Our baseline detection model is a 2DUNet trained to produce a csPCa heatmap followed by a 3D detector. We experimented with the integration of zonal prior information by fusing the output of an anisotropic 3DUNet trained to produce either a deterministic or probabilistic map for each prostate zone. We also investigate the effect of early or late fusion on csPCa detection. All methods were trained and tested on 848 bpMRI. The results show that fusing zonal prior knowledge improves the baseline detection model with a preference for probabilistic over deterministic zonal segmentation.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=hoss19&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=hoss19&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>A decreased ratio of the width of retinal arteries to veins (Arteriolar-to-Venular diameter Ratio, AVR), is well established as predictive of cerebral atrophy, stroke and other cardiovascular events in adults. Tortuous and dilated arteries and veins, as well as decreased AVR are also markers for Plus disease in retinopathy of prematurity. This work presents an automated method to estimate the AVR in retinal color images by detecting the location of the optic disc, determining an appropriate region of interest (ROI), classifying vessels as arteries or veins, estimating vessel widths, and calculating the AVR. After vessel segmentation and vessel width determination, the optic disc is located and the system eliminates all vessels outside the AVR measurement ROI. A skeletonization operation is applied to the remaining vessels after which vessel crossings and bifurcation points are removed, leaving a set of vessel segments consisting of only vessel centerline pixels. Features are extracted from each centerline pixel in order to assign these a soft label indicating the likelihood that the pixel is part of a vein. As all centerline pixels in a connected vessel segment should be the same type, the median soft label is assigned to each centerline pixel in the segment. Next, artery vein pairs are matched using an iterative algorithm, and the widths of the vessels are used to calculate the AVR. We trained and tested the algorithm on a set of 65 high resolution digital color fundus photographs using a reference standard that indicates for each major vessel in the image whether it is an artery or vein. We compared the AVR values produced by our system with those determined by a semi-automated reference system. We obtained a mean unsigned error of 0.06 (SD 0.04) in 40 images with a mean AVR of 0.67. A second observer using the semi-automated system obtained the same mean unsigned error of 0.06 (SD 0.05) on the set of images with a mean AVR of 0.66. The testing data and reference standard used in this study has been made publicly available.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=niem11b&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=niem11b&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

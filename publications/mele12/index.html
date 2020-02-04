@@ -265,12 +265,28 @@
     <h2>Abstract</h2>
     <p>Current computer-aided detection (CAD) systems for mammography screening work as prompting devices that aim at drawing radiologistsÃ¯Â¿Â½ attention to suspicious regions. In this paper, we investigate utilizing a CAD system based on a support vector machine classifier as a standalone tool for recalling additional abnormal cases missed at screening, while keeping the associated recall rate at low levels. We tested the system on a large database of 5800 cases containing abnormal instances (1%) corresponding to prior examinations missed at screening. The results showed that 26% of the missed cases could be detected with a low additional recall rate of 2%. Moreover, after extrapolating this result to a screening program, we determined that, with our system, 0.73 additional cancers per 20 additional recalls could be potentially detected. We also compared the proposed system with a regular CAD system intended for non-standalone operation. The performance of the proposed system was significantly better.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=mele12&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=mele12&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

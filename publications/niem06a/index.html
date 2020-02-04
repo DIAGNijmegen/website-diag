@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Reliable verification of image quality of retinal screening images is a prerequisite for the development of automatic screening systems for diabetic retinopathy. A system is presented that can automatically determine whether the quality of a retinal screening image is sufficient for automatic analysis. The system is based on the assumption that an image of sufficient quality should contain particular image structures according to a certain pre-defined distribution. We cluster filterbank response vectors to obtain a compact representation of the image structures found within an image. Using this compact representation together with raw histograms of the R, G, and B color planes, a statistical classifier is trained to distinguish normal from low quality images. The presented system does not require any previous segmentation of the image in contrast with previous work. The system was evaluated on a large, representative set of 1000 images obtained in a screening program. The proposed method, using different feature sets and classifiers, was compared with the ratings of a second human observer. The best system, based on a Support Vector Machine, has performance close to optimal with an area under the ROC curve of 0.9968.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=niem06a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=niem06a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

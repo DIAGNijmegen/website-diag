@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Molecular tests hold great potential for tuberculosis (TB) diagnosis, but are costly, time consuming, and HIV-infected patients are often sputum scarce. Therefore, alternative approaches are needed. We evaluated automated digital chest radiography (ACR) as a rapid and cheap pre-screen test prior to Xpert MTB/RIF (Xpert). 388 suspected TB subjects underwent chest radiography, Xpert and sputum culture testing. Radiographs were analysed by computer software (CAD4TB) and specialist readers, and abnormality scores were allocated. A triage algorithm was simulated in which subjects with a score above a threshold underwent Xpert. We computed sensitivity, specificity, cost per screened subject (CSS), cost per notified TB case (CNTBC) and throughput for different diagnostic thresholds. 18.3% of subjects had culture positive TB. For Xpert alone, sensitivity was 78.9%, specificity 98.1%, CSS $13.09 and CNTBC $90.70. In a pre-screening setting where 40% of subjects would undergo Xpert, CSS decreased to $6.72 and CNTBC to $54.34, with eight TB cases missed and throughput increased from 45 to 113 patients/day. Specialists, on average, read 57% of radiographs as abnormal, reducing CSS ($8.95) and CNTBC ($64.84). ACR pre-screening could substantially reduce costs, and increase daily throughput with few TB cases missed. These data inform public health policy in resource-constrained settings.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=phil15b&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=phil15b&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 

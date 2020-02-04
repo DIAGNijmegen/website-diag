@@ -266,12 +266,28 @@
     <h2>Abstract</h2>
     <p>Objective In this paper, we present the design of low-cost medical ultrasound scanners aimed at the detection of maternal mortality risk factors in developing countries. Method: Modern ultrasound scanners typically employ a high element count transducer array with multichannel transmit and receive electronics. To minimize hardware costs, we employ a single piezoelectric element, mechanically swept across the target scene, and a highly cost-engineered single channel acquisition circuit. Given this constraint, we compare the achievable image quality of a monostatic fixed focus scanner (MFFS) with a monostatic synthetic aperture scanner (MSAS) using postfocusing. Quantitative analysis of image quality was carried out using simulation and phantom experiments, which were used to compare a proof-of-concept MSAS prototype with an MFFS device currently available on the market. Finally, in vivo experiments were performed to validate the MSAS prototype in obstetric imaging. Results: Simulations show that the achievable lateral resolution of the MSAS approach is superior at all ranges compared to the fixed focus approach. Phantom experiments verify the improved resolution of the MSAS prototype but reveal a lower signal to noise ratio. In vivo experiments show promising results using the MSAS for clinical diagnostics in prenatal care. Conclusion: The proposed MSAS achieves superior resolution but lower SNR compared to an MFFS approach, principally due to lower acoustic energy emitted. Significance: The production costs of the proposed MSAS could be an order of magnitude lower than any other ultrasound system on the market today, bringing affordable obstetric imaging a step closer for developing countries.</p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
 
-    <h2>Request PDF</h2>
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
 
-    <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file. Note: for this service you will be redirected to our PDF-service at <a href="http://www.radboudimaging.nl">radboudimaging.nl</a>.
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=heuv17a&ref=Diagnostic Image Analysis Group"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
 
-    <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=heuv17a&amp;ip=__USERIP__"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
+
     </div>
     </main>
 
