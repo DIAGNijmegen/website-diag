@@ -3179,11 +3179,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3532,6 +3532,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/sven-lafebre/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/sven-patrik-hallsjo/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4092,6 +4096,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/sven-lafebre/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/sven-patrik-hallsjo/</loc>
     <priority>1.0</priority>
   </url>
   <url>
