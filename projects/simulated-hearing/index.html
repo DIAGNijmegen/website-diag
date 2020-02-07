@@ -5,33 +5,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="canonical" href="https://beta.diagnijmegen.nl/software/sol/">
+    <link rel="canonical" href="https://beta.diagnijmegen.nl/projects/simulated-hearing/">
 
 
 
-    <title>SOL - Diagnostic Image Analysis Group</title>
+    <title>Simulated Prosthetic Hearing in deaf subjects - Diagnostic Image Analysis Group</title>
 
 
     <!-- Search Engine -->
-    <meta name="description" content="DIAG's deep learning cluster for training and applying automated image analysis tools.">
-    <meta name="image" content="https://beta.diagnijmegen.nl/images/software/sol-logo.jpg">
+    <meta name="description" content="Development of a neural network based model that improves speech perception in cochlear implant recipients, by optimizing the vocoder strategy in order to restore binaural hearing in deaf subjects.">
+    <meta name="image" content="https://beta.diagnijmegen.nl/images/vacancies/simulated_hearing.png">
 
     <!-- Schema.org for Google -->
-    <meta itemprop="name" content="SOL - Diagnostic Image Analysis Group">
-    <meta itemprop="description" content="DIAG's deep learning cluster for training and applying automated image analysis tools.">
-    <meta itemprop="image" content="https://beta.diagnijmegen.nl/images/software/sol-logo.jpg">
+    <meta itemprop="name" content="Simulated Prosthetic Hearing in deaf subjects - Diagnostic Image Analysis Group">
+    <meta itemprop="description" content="Development of a neural network based model that improves speech perception in cochlear implant recipients, by optimizing the vocoder strategy in order to restore binaural hearing in deaf subjects.">
+    <meta itemprop="image" content="https://beta.diagnijmegen.nl/images/vacancies/simulated_hearing.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="SOL - Diagnostic Image Analysis Group">
-    <meta name="twitter:description" content="DIAG's deep learning cluster for training and applying automated image analysis tools.">
+    <meta name="twitter:title" content="Simulated Prosthetic Hearing in deaf subjects - Diagnostic Image Analysis Group">
+    <meta name="twitter:description" content="Development of a neural network based model that improves speech perception in cochlear implant recipients, by optimizing the vocoder strategy in order to restore binaural hearing in deaf subjects.">
     <meta name="twitter:creator" content="@diagnijmegen">
-    <meta name="twitter:image:src" content="https://beta.diagnijmegen.nl/images/software/sol-logo.jpg">
+    <meta name="twitter:image:src" content="https://beta.diagnijmegen.nl/images/vacancies/simulated_hearing.png">
 
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta property="og:title" content="SOL - Diagnostic Image Analysis Group">
-    <meta property="og:description" content="DIAG's deep learning cluster for training and applying automated image analysis tools.">
-    <meta property="og:image" content="https://beta.diagnijmegen.nl/images/software/sol-logo.jpg">
+    <meta property="og:title" content="Simulated Prosthetic Hearing in deaf subjects - Diagnostic Image Analysis Group">
+    <meta property="og:description" content="Development of a neural network based model that improves speech perception in cochlear implant recipients, by optimizing the vocoder strategy in order to restore binaural hearing in deaf subjects.">
+    <meta property="og:image" content="https://beta.diagnijmegen.nl/images/vacancies/simulated_hearing.png">
     <meta property="og:site_name" content="Diagnostic Image Analysis Group">
     <meta property="og:type" content="website">
 
@@ -247,155 +247,110 @@
         <li class="breadcrumb-item"><a href="https://beta.diagnijmegen.nl/">Home</a></li>
 
 
-          <li class="breadcrumb-item"><a href="https://beta.diagnijmegen.nl/software/">Software</a></li>
-        <li class="breadcrumb-item">SOL</li>
+          <li class="breadcrumb-item"><a href="https://beta.diagnijmegen.nl/projects/">Projects & Software</a></li>
+        <li class="breadcrumb-item">Simulated Prosthetic Hearing in deaf subjects</li>
       </ol>
     </nav>
 </div>    <div class="container">
     <h1 class="page-title">
-            SOL - Deep Learning GPU Cluster
+            Simulated Prosthetic Hearing in deaf subjects
     </h1>
 
     <div class="page-content">
-        <p>The Diagnostic Image Analysis Group's goal is to improve image analysis tools
-for clinicians. Since 2015, deep learning has become an essential tool for 
-artificial intelligence, substatially improving the acurracy and generalizability 
-on developed image classification techniques. In order to create high quality 
-deep learning based algorithms for clinical practice, DIAG's AI researchers 
-require the use of high-power general purpose graphic processing units (GPGPUs).</p>
-<p>SOL is DIAG's deep learning infrastructure. It offers researches access to 
-a centralized pool of GPGPUs. It is used to create state-of-the-art tools
-for detecting and classifying illnesses and quantify extent and identify possible
-treatment options for diseases.</p>
-<h2>Capacity/Activity</h2>
-<table class="table-striped table">
-<thead>
-<tr>
-<th>Resource</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Compute nodes</td>
-<td>30</td>
-</tr>
-<tr>
-<td>GPUs</td>
-<td>80</td>
-</tr>
-<tr>
-<td>CPUs</td>
-<td>788</td>
-</tr>
-<tr>
-<td>Total memory</td>
-<td>3.5TB</td>
-</tr>
-<tr>
-<td>Active users/month</td>
-<td>40</td>
-</tr>
-<tr>
-<td>Jobs run/month</td>
-<td>7000</td>
-</tr>
-</tbody>
-</table>
-<h2>Architecture</h2>
-<p>SOL is a compute cluster which consists of 30 compute nodes that give access
-to a pool of 80 GPUs (mainly NVIDIA GTX1080Ti
-and RTX2080Ti cards), a dedicated 500 TB storage server for serving data to
-deep learning compute nodes using 20 GBit networking, and a 
-<a href="https://prometheus.io/">Prometheus</a>+<a href="https://grafana.com/">Grafana</a>
-based monitoring solution to monitor the activity and health of the cluster. </p>
-<p><img alt="sol-cluster-architecture" class="img-fluid" src="https://beta.diagnijmegen.nl/images/software/sol-architecture.png" title="SOL's architecture overview"/></p>
-<p>Users log in to job nodes directly to either schedule an experiment or to
-interact with a running experiment using 
-<a href="https://jupyter.org/">Jupyter Notebooks</a>. We use 
-<a href="https://slurm.schedmd.com/overview.html">Slurm</a> as an automated
-job queue. Experiments are encapsulated in 
-<a href="https://www.docker.com/">docker containers</a> to isolate their 
-software stacks from the base systems of our compute nodes. This allows 
-researchers maximum flexibilty when it comes to trying out new, experimental 
-libraries and software without us needing to install it on the base systems
-ourselves.</p>
-<h2>Future</h2>
-<p>The SOL compute cluster now runs reliably since mid 2017. The cluster is planned
-to steadily grow until then end of 2019 when it will reach its maximum design capacity
-of 100 GPUs. After this point, plans are to consolidate and upgrade old hardware
-and to remove non-stardard components and compute nodes from the cluster.</p>
-<p>In addition to this, the compute cluster will be rolled out as a service to 
-other departments of the hospital and we will start offering compute capabilites
-built around SOL to other departments of Radboud University in 2019.</p>
+        <h2>Background</h2>
+<p>Hearing loss is the second most prevalent (&gt;440 million people affected) health impairment worldwide, with adequate diagnosis and treatment lacking for many. In case of severe or profound hearing impairment, rehabilitation can be provided by a cochlear implant (CI) that directly stimulates the auditory nerve via acoustically modulated electrical current pulses. The CI provides auditory sensations, and in the most successful cases leads to near-normal speech perception in low-noise listening conditions. However, not all CI recipients experience such a successful outcome; the variability in speech perception outcome among CI recipients is large. Moreover, under noisy listening conditions, CI performance is poor for all recipients.</p>
+<p>Binaural hearing, which is essential for speech reception in noisy conditions, is currently missing in CI recipients. Only one implant is reimbursed for adults, effectively leading to only monaural restoration. Evidence however suggests that two ears are necessarily better. Still, recipients with two CI devices (bilateral CI recipients) have poor sound localization abilities. In practice, even bilateral CIs are fitted per side and do not account for potential bilateral effects of the implant.</p>
+<p>When the performance of the CI recipient is sub-optimal, it is often not clear whether improvements are possible. Due to the vast parameter space that controls the cochlear implant, finding the optimal settings for the CI recipient is time-consuming for both patient and clinic, vary with local expertise, and can only include a small subset of parameters during the limited testing time.</p>
+<p>Previous research showed that machine learning models can localize sound based on binaural data under normal or distorted listening conditions. We will unify earlier efforts to design a neural network that can adjust the parameter space of the vocoder in the distorted listening condition. The goal is to find the set of parameters that has the closest localization performance to the normal listening condition in an emulated CI recipient system.</p>
+<h2>Hypothesis</h2>
+<p>An improved emulated strategy can provide valuable improvements and innovations for actual CI recipients to achieve binaural hearing, and thereby improved speech perception even under noisy listening conditions.</p>
+<h2>Tasks</h2>
+<p>–   Simulating normal-hearing and CI recipient auditory systems of spatial hearing with DNNs.
+–   Improve cochlear implant settings based on the network’s prediction
+–   Validate the improved parameter set by comparing the localization performance of normal-hearing listeners between the original and optimized vocoder strategy</p>
+<h2>Innovation</h2>
+<p>The aim of this project is to build a simulation of impaired directional hearing, which is able to predict the optimal settings for the CI recipient, while needing minimal time of patients and the clinic.</p>
     </div>
 
     <h2>People</h2>
     <div class="container">
         <div class="row people-grid">
-<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
-    <img src="https://beta.diagnijmegen.nl/images/people/Rita_Bijlsma.jpg" class="img-thumbnail lazyload rounded-circle" alt="Rita Bijlsma">
-    <h3 class="person-name">Rita Bijlsma</h3>
-</div>
+
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
 
+    <a href="None"><img data-src="https://beta.diagnijmegen.nl/images/people/Person.png" class="img-thumbnail rounded-circle lazyload" alt="Alex Tichter"></a>
 
-    <a href="https://rse.diagnijmegen.nl/members/paul-konstantin-gerke/"><img data-src="https://beta.diagnijmegen.nl/images/people/Paul_Konstantin_Gerke-160.jpg" class="img-thumbnail rounded-circle lazyload" alt="Paul Konstantin Gerke"></a>
-
-    <h3 class="person-name"><a href="https://rse.diagnijmegen.nl/members/paul-konstantin-gerke/">
-      Paul Konstantin Gerke
+    <h3 class="person-name"><a href="None">
+      Alex Tichter
       <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
     </a></h3>
 
-    <h4 class="person-title"><small>Research Software Engineer</small></h4>
+    <h4 class="person-title"><small>Master student</small></h4>
 
-      <p class='text-muted'>DIAG Research Software Engineering</p>
-</div><div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
+    <p class='text-muted'>Artificial Intelligence, Radboud University</p>
+</div>
 
 
-    <a href="https://diagnijmegen.github.io/website-neuro/members/sil-van-de-leemput/"><img data-src="https://beta.diagnijmegen.nl/images/people/Sil_van_de_Leemput-160.jpg" class="img-thumbnail rounded-circle lazyload" alt="Sil van de Leemput"></a>
+<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
 
-    <h3 class="person-name"><a href="https://diagnijmegen.github.io/website-neuro/members/sil-van-de-leemput/">
-      Sil van de Leemput
+    <a href="https://www.radboudumc.nl/afdelingen/keel-neus-oorheelkunde/onze-onderdelen/hearing-implants/ci-team"><img data-src="https://beta.diagnijmegen.nl/images/people/external/Jan-Willem_Wasmann.jpg" class="img-thumbnail rounded-circle lazyload" alt="Jan-Willem Wasmann"></a>
+
+    <h3 class="person-name"><a href="https://www.radboudumc.nl/afdelingen/keel-neus-oorheelkunde/onze-onderdelen/hearing-implants/ci-team">
+      Jan-Willem Wasmann
       <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
     </a></h3>
 
-    <h4 class="person-title"><small>Research Software Engineer</small></h4>
+    <h4 class="person-title"><small>Medical physicist audiologist</small></h4>
 
-      <p class='text-muted'>NeuroImaging</p>
-</div><div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
+    <p class='text-muted'>KNO, Radboudumc</p>
+</div>
 
 
-    <a href="https://www.computationalpathologygroup.eu/members/thomas-de-bel/"><img data-src="https://beta.diagnijmegen.nl/images/people/Thomas_de_Bel.jpg" class="img-thumbnail rounded-circle lazyload" alt="Thomas de Bel"></a>
+<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
 
-    <h3 class="person-name"><a href="https://www.computationalpathologygroup.eu/members/thomas-de-bel/">
-      Thomas de Bel
+    <a href="https://www.ru.nl/english/people/wanrooij-m-van/"><img data-src="https://beta.diagnijmegen.nl/images/people/external/Marc_van_Wanrooij.png" class="img-thumbnail rounded-circle lazyload" alt="Marc van Wanrooij"></a>
+
+    <h3 class="person-name"><a href="https://www.ru.nl/english/people/wanrooij-m-van/">
+      Marc van Wanrooij
       <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
     </a></h3>
 
-    <h4 class="person-title"><small>PhD student</small></h4>
+    <h4 class="person-title"><small>Assistant professor</small></h4>
 
-      <p class='text-muted'>Computational Pathology Group</p>
-</div><div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
-    <img src="https://beta.diagnijmegen.nl/images/people/Person.png" class="img-thumbnail lazyload rounded-circle" alt=" Matin Hosseinzadeh">
-    <h3 class="person-name"> Matin Hosseinzadeh</h3>
+    <p class='text-muted'>Department of Biophysics, Donders Institute for Brain, Cognition and Behaviour, Radboud University</p>
 </div>
-<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
-    <img src="https://beta.diagnijmegen.nl/images/people/Person.png" class="img-thumbnail lazyload rounded-circle" alt=" Xie Weiyi">
-    <h3 class="person-name"> Xie Weiyi</h3>
-</div>
+
+
 <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
 
+    <a href="https://www.ru.nl/english/people/gucluturk-y/"><img data-src="https://beta.diagnijmegen.nl/images/people/external/Yagmur_Gucluturk.png" class="img-thumbnail rounded-circle lazyload" alt="Yağmur Güçlütürk"></a>
 
-    <a href="https://beta.diagnijmegen.nl/members/patrick-brand/"><img data-src="https://beta.diagnijmegen.nl/images/people/Patrick_Brand-160.jpg" class="img-thumbnail rounded-circle lazyload" alt="Patrick Brand"></a>
-
-    <h3 class="person-name"><a href="https://beta.diagnijmegen.nl/members/patrick-brand/">
-      Patrick Brand
+    <h3 class="person-name"><a href="https://www.ru.nl/english/people/gucluturk-y/">
+      Yağmur Güçlütürk
+      <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
     </a></h3>
 
-    <h4 class="person-title"><small>PhD student</small></h4>
+    <h4 class="person-title"><small>Assistant professor</small></h4>
 
-</div>        </div>
+    <p class='text-muted'>Artificial Intelligence, Radboud University</p>
+</div>
+
+
+<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6 person">
+
+    <a href="https://www.ru.nl/english/people/guclu-u/"><img data-src="https://beta.diagnijmegen.nl/images/people/external/Umut_Guclu.png" class="img-thumbnail rounded-circle lazyload" alt="Umut Güçlü"></a>
+
+    <h3 class="person-name"><a href="https://www.ru.nl/english/people/guclu-u/">
+      Umut Güçlü
+      <small><svg class="svg-icon svg-icon-external-link"><use xlink:href="#icon-external-link"></use></svg></small>
+    </a></h3>
+
+    <h4 class="person-title"><small>Assistant professor</small></h4>
+
+    <p class='text-muted'>Artificial Intelligence, Radboud University</p>
+</div>
+
+        </div>
     </div>
 
     </div>
@@ -406,7 +361,7 @@ built around SOL to other departments of Radboud University in 2019.</p>
         <div class="row">
             <div class="col-md-11 py-3 footer-content">
                 <p>
-                    <a href="https://github.com/diagnijmegen/website-content/edit/master/content/pages/software/sol.md">&copy;</a>
+                    <a href="https://github.com/diagnijmegen/website-content/edit/master/content/pages/projects/simulated-hearing.md">&copy;</a>
 
                     Diagnostic Image Analysis Group 2020. <a href="https://beta.diagnijmegen.nl/colofon">Colofon</a>.
                 </p>
