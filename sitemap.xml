@@ -2851,6 +2851,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/presentations/midl_label_balancing/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -3843,11 +3847,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4604,6 +4608,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://openreview.net/forum?id=Syoj0k2iG</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/presentations/unsupervised-prostate-cancer-detection/</loc>
     <priority>1.0</priority>
   </url>
   <url>
