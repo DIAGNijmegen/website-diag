@@ -1779,6 +1779,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/presentations/label-scarcity-unsupervised-learning/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -2320,6 +2324,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://openreview.net/forum?id=BJlvCtU45E</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/presentations/midl_epithelial_cell_detection/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3835,11 +3843,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4564,6 +4572,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/presentations/midl-streaming/</loc>
     <priority>1.0</priority>
   </url>
   <url>
