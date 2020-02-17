@@ -2215,6 +2215,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1522-2586(199909)10:3%3C295::AID-JMRI10%3E3.0.CO;2-Z/abstract</loc>
     <priority>1.0</priority>
   </url>
@@ -4083,11 +4087,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
