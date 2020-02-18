@@ -251,6 +251,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1908.05621</loc>
     <priority>1.0</priority>
   </url>
@@ -532,6 +536,14 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/vacancies/deep-learning-lung-immune-therapy/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1051,6 +1063,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1802.06865</loc>
     <priority>1.0</priority>
   </url>
@@ -1260,6 +1276,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1007/978-3-030-00949-6_16</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1771,6 +1791,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/coen-de-vente/</loc>
     <priority>1.0</priority>
   </url>
@@ -2236,6 +2260,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://repository.ubn.ru.nl/handle/2066/134514</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2899,11 +2927,19 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1056/NEJMoa1507807</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://link.springer.com/chapter/10.1007/978-3-642-02172-5_32</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1812.01859</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2939,7 +2975,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <loc>https://beta.diagnijmegen.nl/members/eva-van-rikxoort/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2972,6 +3008,14 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/https://research.utwente.nl/en/publications/evaluation-of-color-representation-for-texture-analysis</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3427,6 +3471,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/ilker-ozgur-koska/</loc>
     <priority>1.0</priority>
   </url>
@@ -3676,6 +3724,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://ipp.myesr.org/esr/ecr2012/index.php?v=sessiond&seid=247&ippwwwsid=5jnho9nq3agreqirle8hkru2l2</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4059,7 +4111,15 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/luuk-boulogne/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4260,6 +4320,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/mike-overkamp/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4723,6 +4787,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/patrick-brand/</loc>
     <priority>1.0</priority>
   </url>
@@ -4787,11 +4855,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4812,6 +4880,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://www.springerlink.com/content/v647p7654q106184/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4980,6 +5052,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/ernst-scholten/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/eva-van-rikxoort/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5219,11 +5295,19 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/peter-bandi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://repository.ubn.ru.nl/handle/2066/201194</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5435,6 +5519,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/research/</loc>
     <priority>1.0</priority>
   </url>
@@ -5563,6 +5659,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/sarah-van-riel/</loc>
     <priority>1.0</priority>
   </url>
@@ -5575,11 +5675,15 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5655,6 +5759,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1088/0031-9155/61/16/5906</loc>
     <priority>1.0</priority>
   </url>
@@ -5668,6 +5776,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/http://rsna2015.rsna.org/program/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -6088,6 +6200,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/http://www.amazon.com/Fifth-International-Workshop-Pulmonary-Analysis/dp/149218697X</loc>
     <priority>1.0</priority>
   </url>
   <url>
