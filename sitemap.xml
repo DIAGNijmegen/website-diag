@@ -407,6 +407,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1007/BF01212192</loc>
     <priority>1.0</priority>
   </url>
@@ -640,6 +644,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/anton-schreuder/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1527,6 +1535,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/bram-de-wilde/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/bram-van-ginneken/</loc>
     <priority>1.0</priority>
   </url>
@@ -1656,6 +1668,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://europepmc.org/abstract/MED/21972156</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -1908,6 +1924,14 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1007/s00330-014-3394-4</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2523,6 +2547,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://repository.ubn.ru.nl/handle/2066/99158</loc>
     <priority>1.0</priority>
   </url>
@@ -2827,6 +2855,14 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://rsna2008.rsna.org/event_display.cfm?em_id=6020746</loc>
     <priority>1.0</priority>
   </url>
@@ -2883,11 +2919,19 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/ernst-scholten/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/esther-markus-smeets/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3083,6 +3127,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1136/thoraxjnl-2016-208655</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -3203,6 +3251,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/gabriel-humpire-mamani/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/gabriel-raya-rodriguez/</loc>
     <priority>1.0</priority>
   </url>
@@ -3236,6 +3288,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1007/s00330-015-3742-z</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3312,6 +3368,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://www.sciencedirect.com/science/article/pii/S1361841519300799</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3428,6 +3488,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://link.springer.com/article/10.1007%2Fs00330-012-2446-x</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3560,6 +3624,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1126/sciimmunol.aaf6925</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -3811,6 +3879,14 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/kicky-van-leeuwen/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/kiran-vaidhya-venkadesh/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -3907,6 +3983,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1610.04834</loc>
     <priority>1.0</priority>
   </url>
@@ -3951,6 +4031,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://igitur-archive.library.uu.nl/dissertations/2010-0517-200217/UUindex.html</loc>
     <priority>1.0</priority>
   </url>
@@ -3972,6 +4056,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/luuk-boulogne/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4019,11 +4107,23 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://repository.ubn.ru.nl/bitstream/handle/2066/191598/191598.pdf?sequence=1</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://link.aip.org/link/?PSI/5032/120/1</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4072,6 +4172,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/matin-hosseinzadeh/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4587,6 +4691,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/oscar-debats/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/oscar-geessink/</loc>
     <priority>1.0</priority>
   </url>
@@ -4743,6 +4851,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/presentations/</loc>
     <priority>1.0</priority>
   </url>
@@ -4819,11 +4931,19 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/anton-schreuder/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/babak-ehteshami-bejnordi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/bart-liefers/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/bram-de-wilde/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4859,6 +4979,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/ernst-scholten/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/fazael-ayatollahi/</loc>
     <priority>1.0</priority>
   </url>
@@ -4868,6 +4992,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/freerk-venhuizen/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/gabriel-humpire-mamani/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -4951,6 +5079,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/matin-hosseinzadeh/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/matthieu-rutten/</loc>
     <priority>1.0</priority>
   </url>
@@ -4991,6 +5123,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/oscar-debats/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/oscar-geessink/</loc>
     <priority>1.0</priority>
   </url>
@@ -5011,11 +5147,19 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/sarah-van-riel/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/publications/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/sjoerd-kerkstra/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/steven-schalekamp/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5036,6 +5180,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/zaneta-swiderska-chadaj/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5135,11 +5283,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5188,6 +5336,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://link.aip.org/link/?PSI/1905/776/1</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5351,6 +5503,14 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/rita-bylsma/</loc>
     <priority>1.0</priority>
   </url>
@@ -5395,7 +5555,15 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/ruben-kluge/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/sarah-van-riel/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5519,6 +5687,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/sil-van-de-leemput/</loc>
     <priority>1.0</priority>
   </url>
@@ -5584,6 +5756,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.2147/COPD.S103680</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5703,6 +5879,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/members/steven-schalekamp/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://www.sciencedirect.com/science/article/B6V09-4998RDF-4C/2/e1e60d05aa3ac9f9fd3f85cb6d7e2e43</loc>
     <priority>1.0</priority>
   </url>
@@ -5732,6 +5912,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/http://dspace.library.uu.nl/handle/1874/298095</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5812,6 +5996,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/tariq-haddad/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -6267,6 +6455,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1907.10978</loc>
     <priority>1.0</priority>
   </url>
@@ -6307,6 +6499,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://doi.org/10.1007%2Fs10549-016-4090-7</loc>
     <priority>1.0</priority>
   </url>
@@ -6328,6 +6524,14 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/ward-hendrix/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -6372,6 +6576,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/members/wouter-bulten/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/members/xie-weiyi/</loc>
     <priority>1.0</priority>
   </url>
   <url>
