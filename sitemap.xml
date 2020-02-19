@@ -4859,11 +4859,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5016,10 +5016,6 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/bart-liefers/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://beta.diagnijmegen.nl/publications/bram-de-wilde/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5371,11 +5367,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5683,11 +5679,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
