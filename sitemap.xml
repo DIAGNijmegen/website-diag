@@ -951,6 +951,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://igitur-archive.library.uu.nl/dissertations/2005-0909-200011/UUindex.html</loc>
     <priority>1.0</priority>
   </url>
@@ -4351,6 +4355,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1909.10084</loc>
     <priority>1.0</priority>
   </url>
@@ -5387,6 +5395,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/members/rashindra-manniesing/</loc>
     <priority>1.0</priority>
   </url>
@@ -5679,11 +5691,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
