@@ -283,6 +283,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/http://link.springer.com/chapter/10.1007/978-3-642-23626-6_51</loc>
     <priority>1.0</priority>
   </url>
