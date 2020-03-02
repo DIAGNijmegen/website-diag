@@ -273,6 +273,27 @@ A U-Net was trained to correct EPID dose images calculated at the isocenter insi
 Compared to the TPS, in vivo 2D DEEPID dose images showed an average γ-pass rate of 90.2% (72.6%-99.4%) outside the central unattenuated region. Without DEEPID correction, this number was 44.5% (4.0%-78.4%). DEEPID correctly detected the introduced delivery errors . 
 Conclusions: DEEPID allows for accurate dose reconstruction using the entire EPID image, thus enabling dosimetric verification for field sizes up to ~19x22 cm2 at isocentre. The method can be used to detect clinically relevant errors.   </p>
 
+    <div id="pdf-form" class="mt-5">
+      <h2>Request PDF</h2>
+
+      <p>A pdf file of this publication is available for personal use. Enter your e-mail address in the box below and press the button. You will receive an e-mail message with a link to the pdf file.</p>
+
+      <form method="post" action="http://shared.radboudimaging.nl/mediawiki/publication/confirmemail.php?bibkey=olac20&ref=website-diag"><input type="text" name="email" size="50"><input type="submit" value="Send code by e-mail"></form>
+    </div>
+
+    <div id="pdf-sent" class="mt-5 alert alert-info" style="display: none">
+      <h3>PDF sent</h3>
+
+      <p>An email message containing a code and instructions to download the following paper has been sent to your email adress.</p>
+    </div>
+
+    <script type="text/javascript">
+      // The pdf service loads this page with the #pdf-sent hash, if it is present we hide the form.
+      if(window.location.hash == '#pdf-sent') {
+        document.getElementById('pdf-form').style.display = 'none';
+        document.getElementById('pdf-sent').style.display = 'block';
+      }
+    </script>
 
     </div>
     </main>
