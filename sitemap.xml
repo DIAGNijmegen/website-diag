@@ -2,6 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
+    <loc>https://beta.diagnijmegen.nl/highlights/novartis-award-2020/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/highlights/lancet-bulten2020/</loc>
     <priority>0.8</priority>
   </url>
@@ -4887,11 +4891,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5711,11 +5715,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/muscle_us/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/muscle_us/</loc>
     <priority>1.0</priority>
   </url>
   <url>
