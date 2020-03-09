@@ -1943,6 +1943,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/https://arxiv.org/abs/1903.03349</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/https://repository.ubn.ru.nl/handle/2066/200010</loc>
     <priority>1.0</priority>
   </url>
@@ -4139,7 +4143,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/http://dx.doi.org/10.1007/s11255-016-1283-2</loc>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5055,11 +5059,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5579,7 +5583,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/https://ieeexplore.ieee.org/document/8686082</loc>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
