@@ -267,11 +267,11 @@
 
     <h2>Abstract</h2>
     <p>EPID dosimetry in the Unity MR-Linac system allows for reconstruction of absolute dose distributions within the patient geometry. Dose reconstruction is accurate for the parts of the beam arriving at the EPID through the MRI central unattenuated region, free of gradient coils, resulting in a maximum field size of ~10x22 cm2 at isocentre. The purpose of this study is to develop a Deep Learning-based method to improve the accuracy of 2D EPID reconstructed dose distributions outside this central region, accounting for the effects of the extra attenuation and scatter. </p>
-<p>Methods: 
-A U-Net was trained to correct EPID dose images calculated at the isocenter inside a cylindrical phantom using the corresponding TPS dose images as ground truth for training. The model was evaluated using a 5-fold cross validation procedure. The clinical validity of the U-Net corrected dose images (the so-called DEEPID dose images) was assessed with in vivo verification data of 45 large rectum IMRT fields. The sensitivity of DEEPID to leaf bank position errors (±1.5 mm) and ±5% MU delivery errors was also tested.</p>
-<p>Results: 
-Compared to the TPS, in vivo 2D DEEPID dose images showed an average γ-pass rate of 90.2% (72.6%-99.4%) outside the central unattenuated region. Without DEEPID correction, this number was 44.5% (4.0%-78.4%). DEEPID correctly detected the introduced delivery errors . 
-Conclusions: DEEPID allows for accurate dose reconstruction using the entire EPID image, thus enabling dosimetric verification for field sizes up to ~19x22 cm2 at isocentre. The method can be used to detect clinically relevant errors.   </p>
+<p>Methods: </p>
+<p>A U-Net was trained to correct EPID dose images calculated at the isocenter inside a cylindrical phantom using the corresponding TPS dose images as ground truth for training. The model was evaluated using a 5-fold cross validation procedure. The clinical validity of the U-Net corrected dose images (the so-called DEEPID dose images) was assessed with in vivo verification data of 45 large rectum IMRT fields. The sensitivity of DEEPID to leaf bank position errors (±1.5 mm) and ±5% MU delivery errors was also tested.</p>
+<p>Results: </p>
+<p>Compared to the TPS, in vivo 2D DEEPID dose images showed an average γ-pass rate of 90.2% (72.6%-99.4%) outside the central unattenuated region. Without DEEPID correction, this number was 44.5% (4.0%-78.4%). DEEPID correctly detected the introduced delivery errors . </p>
+<p>Conclusions: DEEPID allows for accurate dose reconstruction using the entire EPID image, thus enabling dosimetric verification for field sizes up to ~19x22 cm2 at isocentre. The method can be used to detect clinically relevant errors.   </p>
 
     <div id="pdf-form" class="mt-5">
       <h2>Request PDF</h2>
