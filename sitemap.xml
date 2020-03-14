@@ -3923,10 +3923,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/https://www.karger.com/Article/FullText/491402</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
@@ -4583,11 +4579,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/pneumothorax/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/pneumothorax/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5067,11 +5063,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5124,6 +5120,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/http://link.aip.org/link/?PSI/1905/776/1</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5244,10 +5244,6 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/https://peerj.com/articles/8242/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://beta.diagnijmegen.nl/NA</loc>
     <priority>1.0</priority>
   </url>
   <url>

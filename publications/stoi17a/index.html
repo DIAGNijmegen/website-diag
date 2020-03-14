@@ -266,10 +266,10 @@
 
     <h2>Abstract</h2>
     <p>Purpose / Introduction</p>
-<p>Prostate MRI finds 18% more clinically significant prostate cancer while avoiding 27% biopsies [1]. Reproducibility for multi-parametric ﴾T2+DWI+DCE﴿</p>
-<p>prostate MRI ﴾mpMRI﴿ is moderate [2] even though a PIRADS reading standard is available [3]. Quantification could help improve reproducibility, which to</p>
+<p>Prostate MRI finds 18% more clinically significant prostate cancer while avoiding 27% biopsies [1]. Reproducibility for multi-parametric T2+DWI+DCE</p>
+<p>prostate MRI mpMRI is moderate [2] even though a PIRADS reading standard is available [3]. Quantification could help improve reproducibility, which to</p>
 <p>some extent works for ADC. Scanner provided T2 maps are no solution as it leads to a different texture, lower spatial resolution and increased scan time.</p>
-<p>We have previously developed a method for normalizing T2-weighted images [4]. The normalized value achieved a diagnostic accuracy ﴾AUC﴿ of 0.85</p>
+<p>We have previously developed a method for normalizing T2-weighted images [4]. The normalized value achieved a diagnostic accuracy AUC of 0.85</p>
 <p>over 0.64 for the raw T2-weighted values. That method required a separate proton density weighted sequence, an exact knowledge of the sequence</p>
 <p>model and one reference tissue region. We propose a new method using multiple reference tissues that does not require an additional sequence, nor</p>
 <p>detailed knowledge about the sequence model. The recent development of deep learning makes it feasible to segment multiple reference tissues. The</p>
@@ -277,13 +277,13 @@
 <p>Subjects and Methods</p>
 <p>To test the hypothesis we manually delineated reference tissues and tumor lesions in mpMRI studies of prostate cancer patients. All lesions were</p>
 <p>interpreted by expert radiologists and assigned a PIRADS score. The normalized T2 was then validated for its ability to discriminate PIRADS 2-3 from 4-5</p>
-<p>classes. Regions of interest ﴾ROI﴿ were drawn in four distinct tissue types in fifty T2-weighted images from regular multiparametric prostate MRI ﴾mpMRI﴿.</p>
+<p>classes. Regions of interest ROI were drawn in four distinct tissue types in fifty T2-weighted images from regular multiparametric prostate MRI mpMRI.</p>
 <p>The four reference tissue types were: obturator internus muscle, body fat, femoral head, bladder lumen. Four average ROI signals were computed per</p>
-<p>patient. Each reference tissue was assigned a fixed reference value ﴾T2 relaxation found in literature﴿. Per patient, a smooth spline model was fitted to the</p>
-<p>﴾average, reference﴿ pairs. The estimated spline model was then inverted to map patients' raw T2-weighted image scalar values to normalized values. The</p>
+<p>patient. Each reference tissue was assigned a fixed reference value T2 relaxation found in literature. Per patient, a smooth spline model was fitted to the</p>
+<p>average, reference pairs. The estimated spline model was then inverted to map patients' raw T2-weighted image scalar values to normalized values. The</p>
 <p>effect of the normalization was determined by computing and comparing the diagnostic accuracy using ROC analysis.</p>
 <p>Results</p>
-<p>The area under the ROC ﴾AUC﴿ was significantly higher ﴾p&lt;0.05﴿ in normalized T2.5/22/2017 #542: Feasibility of multireference tissue normalization of T2­weighted prostate MRI.</p>
+<p>The area under the ROC AUC was significantly higher p&lt;0.05 in normalized T2.5/22/2017 #542: Feasibility of multireference tissue normalization of T2weighted prostate MRI.</p>
 <p>Discussion / Conclusion</p>
 <p>The significant improvement of the diagnostic accuracy demonstrates the potential of our normalization method for the quantitative interpretation of T2-weighted prostate MRI. The results were similar to our previous method.The method still requires manual delineation of multiple reference tissues</p>
 
