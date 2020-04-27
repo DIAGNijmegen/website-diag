@@ -9,7 +9,7 @@
 
 
 
-    <title>Our work on Automated Gleason Grading in Lancet Oncology</title>
+    <title>Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.</title>
 
 
     <!-- Search Engine -->
@@ -17,19 +17,19 @@
     <meta name="image" content="https://beta.diagnijmegen.nl/images/lobe_segmentation_I.png">
 
     <!-- Schema.org for Google -->
-    <meta itemprop="name" content="Our work on Automated Gleason Grading in Lancet Oncology">
+    <meta itemprop="name" content="Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.">
     <meta itemprop="description" content="Pulmonary lobe segmentation in computed tomography scans is essential for regional assessment of pulmonary diseases. Our algorithm for automatic segmentation of pulmonary lobes on CT scans for patients with COPD or COVID-19 is now available on Grand Challenge.">
     <meta itemprop="image" content="https://beta.diagnijmegen.nl/images/lobe_segmentation_I.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Our work on Automated Gleason Grading in Lancet Oncology">
+    <meta name="twitter:title" content="Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.">
     <meta name="twitter:description" content="Pulmonary lobe segmentation in computed tomography scans is essential for regional assessment of pulmonary diseases. Our algorithm for automatic segmentation of pulmonary lobes on CT scans for patients with COPD or COVID-19 is now available on Grand Challenge.">
     <meta name="twitter:creator" content="@diagnijmegen">
     <meta name="twitter:image:src" content="https://beta.diagnijmegen.nl/images/lobe_segmentation_I.png">
 
     <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta property="og:title" content="Our work on Automated Gleason Grading in Lancet Oncology">
+    <meta property="og:title" content="Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.">
     <meta property="og:description" content="Pulmonary lobe segmentation in computed tomography scans is essential for regional assessment of pulmonary diseases. Our algorithm for automatic segmentation of pulmonary lobes on CT scans for patients with COPD or COVID-19 is now available on Grand Challenge.">
     <meta property="og:image" content="https://beta.diagnijmegen.nl/images/lobe_segmentation_I.png">
     <meta property="og:site_name" content="Diagnostic Image Analysis Group">
@@ -247,7 +247,7 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="https://beta.diagnijmegen.nl/">Home</a></li>
 	<li class="breadcrumb-item"><a href="https://beta.diagnijmegen.nl/highlights">Highlights</a></li>
-        <li class="breadcrumb-item">Our work on Automated Gleason Grading in Lancet Oncology</li>
+        <li class="breadcrumb-item">Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.</li>
       </ol>
     </nav>
 </div>
@@ -255,7 +255,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="page-title">Our work on Automated Gleason Grading in Lancet Oncology</h1>
+            <h1 class="page-title">Contextual two-stage U-net for pulmonary lobe segmentation in COVID-19 and COPD patients.</h1>
         </div>
     </div>
 
@@ -270,7 +270,7 @@
         <div class="col-md-8">
             <p>Automated pulmonary lobe segmentation in computed tomography scans is still an open problem, especially for scans with substantial abnormalities, such as in COVID-19 infection. Recent works used Convolutional Neural Networks for automatic pulmonary lobe segmentation. Convolution kernels in these networks only respond to local information within the scope of their effective receptive field, and this may be insufficient to capture all necessary contextual information. </p>
 <p><a href="/members/xie-weiyi/">Xie Weiyi</a> and colleagues argue that contextual information is critically important for accurate delineation of pulmonary lobes, especially when the lungs are severely affected by diseases such as COVID-19 or COPD. They propose a contextual two-stage U-net (CTSU-Net) that leverages global context by introducing a first stage in which the receptive field encompasses the entire scan and by using a novel non-local neural network module. </p>
-<p>With a limited amount of training data available from COVID-19 subjects, <a href="/members/xie-weiyi/">Xie Weiyi</a> et al initially train and validate CTSU-Net on a cohort of 5000 subjects from the COPDGene study (4000 for training and 1000 for evaluation). Using the models pretrained on COPDGene,  transfer learning  was applied to retrain and evaluate CTSU-Net on 204 COVID-19 subjects (104 for retraining and 100 for evaluation). Experimental results show that CTSU-Net outperforms state-of-the-art baselines and performs robustly on cases with incomplete fissures and severe lung infection due to COVID-19. The algorithm is now available on <a href="https://grand-challenge.org/algorithms/">Grand Challenge</a>, where users are free to use the agorithm on their own data sets.</p>
+<p>With a limited amount of training data available from COVID-19 subjects, <a href="/members/xie-weiyi/">Xie Weiyi</a> et al initially train and validate CTSU-Net on a cohort of 5000 subjects from the COPDGene study (4000 for training and 1000 for evaluation). Using the models pretrained on COPDGene,  transfer learning  was applied to retrain and evaluate CTSU-Net on 204 COVID-19 subjects (104 for retraining and 100 for evaluation). Experimental results show that CTSU-Net outperforms state-of-the-art baselines and performs robustly on cases with incomplete fissures and severe lung infection due to COVID-19. The algorithm is now available on <a href="https://grand-challenge.org/algorithms/">Grand Challenge</a>, where users are free to use the algorithm on their own data sets.</p>
 <p><img alt="Results automated pulmonary lobe segmentation in COVID-19 patients" class="img-fluid" src="https://beta.diagnijmegen.nl/images/news/lobe_segmentation_II.png"/></p>
 <p>The image above displays a qualitative comparison of the proposed CTSU-Net segmentation (middle row) and ground truth (bottom row) in CT scans of COVID-19 patients. Blue: right upper lobe, light blue: right lower lobe, red: left upper lobe, green: left lower lobe. </p>
 <p>Read more about the CTSU-Net in the <a href="https://arxiv.org/abs/2004.07443">ArXiv paper</a>.</p>
