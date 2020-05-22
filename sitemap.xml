@@ -1747,6 +1747,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://beta.diagnijmegen.nl/publications/prok20/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>https://beta.diagnijmegen.nl/people/coen-de-vente/</loc>
     <priority>1.0</priority>
   </url>
@@ -2288,6 +2292,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/nill11/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/murp20a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2867,7 +2875,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/publications/gonz19/</loc>
+    <loc>https://beta.diagnijmegen.nl/publications/gonz20a/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -2888,6 +2896,10 @@
   </url>
   <url>
     <loc>https://beta.diagnijmegen.nl/publications/broe04/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://beta.diagnijmegen.nl/publications/habi20/</loc>
     <priority>1.0</priority>
   </url>
   <url>
@@ -5107,11 +5119,11 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://beta.diagnijmegen.nl/vacancies/facial-phenotyping/</loc>
+    <loc>https://beta.diagnijmegen.nl/projects/facial-phenotyping/</loc>
     <priority>1.0</priority>
   </url>
   <url>
