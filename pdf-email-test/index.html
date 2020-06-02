@@ -269,7 +269,7 @@
 <div class="mt-5 alert alert-warning" id="pdf-error" style="display: none;"></div>
 <p>Use the form below to request a PDF of bibkey "Bult20".</p>
 <form id="pdf-form" name="pdf-form">
-<input name="bibkey" type="hidden" value="swid19"/>
+<input name="bibkey" type="hidden" value="bult20"/>
 <label for="email">
         Email:
     </label>
@@ -280,9 +280,9 @@
 
 document.getElementById("pdf-form").addEventListener("submit", function(event) {
 
-    const form = event.submitter.parentElement;
-    const data = new FormData(form)
+    const data = new FormData(document.getElementById("pdf-form"));
     const params = new URLSearchParams(data).toString();
+
 
     // Prevent normal form submit
     event.preventDefault();
